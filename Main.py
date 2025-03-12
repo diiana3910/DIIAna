@@ -405,9 +405,9 @@ def pavement_analysis(title):
 # Main app
 if __name__ == "__main__":
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Concrete Pavement", "Asphalt Pavement"])
+    page = st.sidebar.radio("Go to", ["Pavement", "Pavement"])
     
-    if page == "Concrete Pavement":
-        pavement_analysis("Concrete Pavement")
+    if page == "Pavement":
+        pavement_analysis("Pavement")
     else:
-        pavement_analysis("Asphalt Pavement")
+        pavement_analysis("Pavement")
